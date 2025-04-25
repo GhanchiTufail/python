@@ -19,9 +19,6 @@ def main(number):
     #     number -= 1
     # return count
     
-if __name__ == "__main__":
-    try:
-        number = int(input("Enter the number : "))
-        print("The factorial of the number {0} is : {1}".format(number , main(number)))
-    except:
-        print("check value")
+
+number = int(input("Enter the number : "))
+print("The factorial of the number {0} is : {1}".format(number , main(number)))
