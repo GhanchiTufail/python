@@ -9,9 +9,6 @@
 # 40320
 
 
-
-import logging
-
 def main(number):
     if number == 1:
         return 1
@@ -27,4 +24,4 @@ if __name__ == "__main__":
         number = int(input("Enter the number : "))
         print("The factorial of the number {0} is : {1}".format(number , main(number)))
     except:
-        logging.warning("check value")
+        print("check value")
