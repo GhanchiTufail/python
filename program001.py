@@ -17,8 +17,6 @@
 # all logic should be in side main method only
 
 
-import logging
-
 def main(start, end): #created main function
     mylist = []  # created empty list
     for i in range(start, end): # started for loop for the given start and end
@@ -32,4 +30,4 @@ if __name__ == "__main__":
         end = int(input("Enter last number : "))
         print("The out put is {}".format(main(start,end+1)))
     except:
-        logging.warning("\tcheck value")
+        print("CHECK INPUT")
