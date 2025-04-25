@@ -11,19 +11,9 @@
 # HELLO WORLD
 # PRACTICE MAKES PERFECT
 
-
-def main():
-    mylist = []
-    while True:
-        data = input("Enter string : ")
-        if data:
-            mylist.append(data.capitalize())
-        else:
-            break
-    for i in mylist:
-        print(i)
+def main(sentence):
+    return sentence.upper()
 
 if __name__ == "__main__":
-    print()
-    main()
-    print()
+    sentence = input("Enter sentence : ")
+    print(main(sentence))
