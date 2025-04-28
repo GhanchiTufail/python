@@ -22,10 +22,6 @@ def main(mylist):
     return ','.join(data)
 
 
-if __name__ == "__main__":
-    try:
-        string = input("Enter binary numbers : ")
-        mylist = string.split(',')
-        print(main())
-    except:
-        print("Error input item")
+string = input("Enter binary numbers : ")
+mylist = string.split(',')
+print(main())

@@ -10,6 +10,6 @@ def main(num):
     else:
         print("It is an odd number")
 
-if __name__ == "__main__":
-    num = int(input("Enter the number : "))
-    main(num)
+
+num = int(input("Enter the number : "))
+main(num)

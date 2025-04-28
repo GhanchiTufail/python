@@ -15,9 +15,6 @@ def main(num):
     fun = iterator()
     fun.show()
 
-if __name__ == "__main__":
-    try:
-        number = int(input("Enter the number : "))
-        main(number)
-    except:
-        ValueError("Check Value")
+
+number = int(input("Enter the number : "))
+main(number)

@@ -35,6 +35,4 @@ def main():
             pass
     return "Total balance is : {}".format(amount)
 
-
-if __name__ == "__main__":
-    print(main())
+print(main())

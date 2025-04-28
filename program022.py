@@ -28,6 +28,5 @@ def main(sentence):
     return count
 
 
-if __name__ == "__main__":
-    sentence = input("Enter the sentence : ")
-    print(main(sentence))
+sentence = input("Enter the sentence : ")
+print(main(sentence))

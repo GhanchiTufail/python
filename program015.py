@@ -17,9 +17,5 @@ def main(data):
     return num
 
 
-if __name__ == "__main__":
-    try:
-        data = int(input("Enter the number : "))
-        print(main(data))
-    except:
-        ValueError("check value")
+data = int(input("Enter the number : "))
+print(main(data))

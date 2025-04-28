@@ -16,9 +16,6 @@ def main(number):
         dict1[i] = (i*i)
     return dict1
 
-if __name__ == "__main__":
-    try:
-        number = int(input("Enter the number : "))
-        print(main(number))
-    except:
-        print("check value")
+
+number = int(input("Enter the number : "))
+print(main(number))

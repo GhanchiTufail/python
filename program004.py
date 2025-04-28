@@ -17,8 +17,8 @@ def main(string: str):
     tup = tuple(list1)
     return list1,tup
 
-if __name__ == "__main__":
-    limit = (input("Enter the data range : "))
-    data = main(limit)
-    print("The list is : {}".format(data[0]))
-    print("The list is : {}".format(data[1]))
+
+limit = (input("Enter the data range : "))
+data = main(limit)
+print("The list is : {}".format(data[0]))
+print("The list is : {}".format(data[1]))

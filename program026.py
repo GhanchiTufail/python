@@ -5,8 +5,4 @@
 def main(num1, num2):
     return num1 + num2
 
-if __name__ == "__main__":
-        try:
-              print("The total is : " , main(int(input("Enter a number : ")),int(input("Enter a number : "))))
-        except:
-              print("Check Value")
+print("The total is : " , main(int(input("Enter a number : ")),int(input("Enter a number : "))))

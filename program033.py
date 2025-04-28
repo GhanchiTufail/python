@@ -9,6 +9,6 @@ def main(number):
         dict1[i] = i**i
     return dict1
 
-if __name__ == "__main__":
-    number = int(input("Enter the number : "))
-    print(main(number))
+
+number = int(input("Enter the number : "))
+print(main(number))

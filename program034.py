@@ -10,7 +10,7 @@ def main(number1,number2):
         dict1[i] = i**2
     return dict1
 
-if __name__ == "__main__":
-    number1 = int(input("Enter the number : "))
-    number2 = int(input("Enter the number : "))
-    print(main(number1, number2))
+
+number1 = int(input("Enter the number : "))
+number2 = int(input("Enter the number : "))
+print(main(number1, number2))

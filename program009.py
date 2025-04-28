@@ -14,6 +14,5 @@
 def main(sentence):
     return sentence.upper()
 
-if __name__ == "__main__":
-    sentence = input("Enter sentence : ")
-    print(main(sentence))
+sentence = input("Enter sentence : ")
+print(main(sentence))

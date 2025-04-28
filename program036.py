@@ -13,7 +13,7 @@ def main(number1,number2):
     for i in dict1.keys():
         print(i)
 
-if __name__ == "__main__":
-    number1 = int(input("Enter the number : "))
-    number2 = int(input("Enter the number : "))
-    main(number1, number2)
+
+number1 = int(input("Enter the number : "))
+number2 = int(input("Enter the number : "))
+main(number1, number2)

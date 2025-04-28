@@ -17,6 +17,5 @@ def main(data):
     data = ','.join(mylist)
     return data
 
-if __name__ == "__main__":
-    data = input()
-    print(main(data))
+data = input()
+print(main(data))

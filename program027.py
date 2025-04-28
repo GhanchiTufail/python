@@ -6,6 +6,6 @@
 def main(data):
     return str(data)
 
-if __name__ == "__main__":
-    string = int(input("Enter the string : "))
-    print(main(string))
+
+string = int(input("Enter the string : "))
+print(main(string))

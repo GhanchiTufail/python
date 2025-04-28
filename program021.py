@@ -48,5 +48,4 @@ def main():
             pass
     return round(sqrt((x*x) + (y*y)))
 
-if __name__ == "__main__":
-    print(main())
+print(main())

@@ -28,10 +28,7 @@ def main(start,end):
     return mylist
 
 
-if __name__ == "__main__":
-    try:
-        start = int(input("Enter the start value : "))
-        end = int(input("Enter the end value : "))
-        print(main(start,end))
-    except:
-        ValueError("Enter the integer")
+
+start = int(input("Enter the start value : "))
+end = int(input("Enter the end value : "))
+print(main(start,end))

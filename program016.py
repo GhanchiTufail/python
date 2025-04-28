@@ -15,10 +15,6 @@ def main(mylist):
             list1.append(i)
     return list1
 
-if __name__ == "__main__":
-    try:
-        string = input("enter the number : ")
-        mylist = string.split(",")
-        print(main(mylist))
-    except:
-        ValueError("Check Value")
+string = input("enter the number : ")
+mylist = string.split(",")
+print(main(mylist))

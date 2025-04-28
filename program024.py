@@ -12,5 +12,4 @@ def main():
     print(int.__doc__)
     print(input.__doc__)
 
-if __name__ == "__main__":
-    main()
+main()

@@ -14,7 +14,6 @@ def main(str1, str2):
         print(str1)
         print(str2)
     
-if __name__ == "__main__":
-    str1 = input("Enter the string : ")
-    str2 = input("Enter the string : ")
-    main(str1,str2)
+str1 = input("Enter the string : ")
+str2 = input("Enter the string : ")
+main(str1,str2)

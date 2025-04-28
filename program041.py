@@ -12,4 +12,4 @@ def main(num1, num2):
 
 num1 = int(input("Enter the starting number : "))
 num2 = int(input("Enter the ending number : "))
-print(main(num1,num2))
+print(main(num1,num2)) 

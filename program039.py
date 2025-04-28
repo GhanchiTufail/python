@@ -16,7 +16,6 @@ def main(num1, num2):
     temp.reverse()
     print(temp)
 
-if __name__ == "__main__":
-    num1 = int(input("Enter the number : "))
-    num2 = int(input("Enter the number : "))
-    main(num1,num2)
+num1 = int(input("Enter the number : "))
+num2 = int(input("Enter the number : "))
+main(num1,num2)

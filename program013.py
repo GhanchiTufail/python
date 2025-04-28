@@ -22,9 +22,6 @@ def main(string):
         "Alphabets":characters
     }
 
-if __name__ == "__main__":
-    try:
-        string = input("Enter the sentence : ")
-        print(main(string))
-    except:
-        ValueError("Check input")
+
+string = input("Enter the sentence : ")
+print(main(string))

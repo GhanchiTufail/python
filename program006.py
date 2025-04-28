@@ -33,6 +33,5 @@ def main(data: str):
         value.append(str(int(round(sqrt(2 * C * float(i)/H)))))
     return value
 
-if __name__ == "__main__":
-    data = input("Enter input : ")
-    print(main(data))
+data = input("Enter input : ")
+print(main(data))

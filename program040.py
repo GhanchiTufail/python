@@ -18,7 +18,7 @@ def main(num1, num2):
         else:
             print(i)
 
-if __name__ == "__main__":
-    num1 = int(input("Enter the number : "))
-    num2 = int(input("Enter the number : "))
-    main(num1,num2)
+
+num1 = int(input("Enter the number : "))
+num2 = int(input("Enter the number : "))
+main(num1,num2)

@@ -11,9 +11,6 @@
 # Then, the output should be:
 # again and hello makes perfect practice world
 
-
-import logging
-
 def main(sentence):
     mylist = sentence.split(" ")
     mylist = list(set(mylist))
@@ -21,9 +18,5 @@ def main(sentence):
     data = " ".join(mylist)
     return data
 
-if __name__ == "__main__":
-    try:
-        sentence = input("Enter the sentence : ")
-        print(main(sentence))
-    except:
-        logging.warning("Value error")
+sentence = input("Enter the sentence : ")
+print(main(sentence))
