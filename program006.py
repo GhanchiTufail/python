@@ -21,7 +21,7 @@
 
 from math import sqrt
 
-print(round(20.8))
+round()
 
 def main(data: str):
     C = 50

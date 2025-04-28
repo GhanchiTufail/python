@@ -13,11 +13,6 @@ def main(number):
     if number == 1:
         return 1
     return number * main(number-1)
-    # count = 1
-    # while number > 1:
-    #     count = count * number
-    #     number -= 1
-    # return count
     
 
 number = int(input("Enter the number : "))

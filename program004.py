@@ -11,28 +11,14 @@
 # ('34', '67', '55', '33', '12', '98')
 
 
-def string_append(string, data, i):
-    if i == 0:
-        string = data
-    else:
-        string = string + "," + data
-    return string
-
-
-def main(limit):
-    string = ""
-    for i in range(0,limit):
-        data = (input("Enter number : "))
-        string = string_append(string, data, i)
-    mylist = string.split(",")
-    mytuple = tuple(mylist)
-    return mylist,mytuple
+def main(string: str):
+    list1 = []
+    list1 = string.split(",")
+    tup = tuple(list1)
+    return list1,tup
 
 if __name__ == "__main__":
-    try:
-        limit = int(input("Enter the data range : "))
-        data = main(limit)
-        print("The list is : {}".format(data[0]))
-        print("The tuple is : {}".format(data[1]))
-    except:
-        print("check value")
+    limit = (input("Enter the data range : "))
+    data = main(limit)
+    print("The list is : {}".format(data[0]))
+    print("The list is : {}".format(data[1]))

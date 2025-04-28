@@ -7,25 +7,21 @@
 # Also please include simple test function to test the class methods.
 
 
-def main():
-    class StringClass:
+class StringClass:
 
-        def __init__(self):
-            self.string = ""
+    def __init__(self):
+        self.string = ""
 
-        def get_string(self):
-            self.string = input("Enter string : ")
+    def get_string(self):
+        self.string = input("Enter string : ")
 
-        def print_string(self):
-            print(self.string.upper())
+    def print_string(self):
+        print(self.string.upper())
 
-        def test(self):
-            print("test function")
+    def test(self):
+        print("test function")
 
-    string1 = StringClass()
-    string1.get_string()
-    string1.print_string()
-    string1.test()
-
-if __name__ == "__main__":
-    main()
+string1 = StringClass()
+string1.get_string()
+string1.print_string()
+string1.test()
