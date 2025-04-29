@@ -15,9 +15,6 @@
 # In case of input data being supplied to the question,
 # it should be assumed to be a console input.
 
-# Hints:
-# Use float() to convert an integer to a float
-
 
 def main(num):
     k = 0
