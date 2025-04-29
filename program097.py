@@ -23,5 +23,4 @@ def main(string):
     mystr = "".join(mylist)
     print(mystr)
 
-
 string = input("Enter the string : ")
