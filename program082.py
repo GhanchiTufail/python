@@ -1,32 +1,15 @@
-# program 82:
+# program 80:
 
-# Please write a program to compress and decompress
-# the string "hello world!hello world!hello world!hello world!".
+# Please write a program to randomly generate a
+# list with5 numbers, which are divisible by 5 and 7 ,
+# between 1 and 1000 inclusive.
 
-# Hints:
-# Use zlib.compress() and zlib.decompress()
-# to compress and decompress a string.
 
-# import zlib
+import random
 
-# def main(string):
-#     result = zlib.compress(string)
-#     print(result)
-#     # print(zlib.decompress(result))
+def main(start, end):
+    print(random.sample([x for x in range(start,end) if x % 5 == 0 and x % 7 == 0],5))
 
-# string = input("Enter input : ")
-# main(string)
-
-# import zlib
-
-        
-# def main():
-
-#     string = input('Enter String: ')
-
-#     ans = zlib.compress(string)
-#     print('Compressed String:  ' + ans)
-#     print('decompressed String:  ' + zlib.decompress(ans))
-
-# if __name__ == '__main__':
-#     main()
+start = int(input("Enter the starting number : "))
+end = int(input("Enter the ending number : "))
+main(start,end)
