@@ -13,5 +13,4 @@ time = Timer("for cnt in range(100):1+1")
 print(time.timeit())
 
 print(datetime.datetime(year=2003,month=6,day=5,hour=12,minute=50,second=35,microsecond=120000))
-    
 print(datetime.date.today())
